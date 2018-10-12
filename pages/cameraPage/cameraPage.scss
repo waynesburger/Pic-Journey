@@ -1,0 +1,24 @@
+page-camera {
+
+    #camera_id {
+        width: 100%;
+        height: 94%;
+    }
+
+    #page_nav {
+        position: absolute;
+        bottom: 0px;
+        background-color: rebeccapurple;
+    }
+
+    #temp_button {
+        position: absolute;
+        bottom: 40px;
+    }
+
+    #quit_button{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+}

@@ -1,0 +1,36 @@
+page-album{
+
+    #album_id {
+        width: 100%;
+        height: 94%;
+    }
+
+    @media (min-width: 0px) {
+        .your_pics {
+            column-count: 2;
+        }
+    }
+
+    @media (min-width: 620px) {
+        .your_pics {
+            column-count: 3;
+        }
+    }
+
+    @media (min-width: 820px) {
+        .your_pics {
+            column-count: 4;
+        }
+    }
+
+    .image-place{
+        background-size: cover;
+        min-height: 200px;
+    }
+
+    #page_nav {
+        position: fixed;
+        bottom: 0px;
+        background-color: rebeccapurple;
+    }
+}
